@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freretown Secondary School</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
+    </style>
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.1.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.1.3/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.1.3/firebase-firestore.js"></script>
+    <script>
+        const firebaseConfig = {
+            apiKey: "YOUR_API_KEY",
+            authDomain: "YOUR_AUTH_DOMAIN",
+            projectId: "YOUR_PROJECT_ID",
+            storageBucket: "YOUR_STORAGE_BUCKET",
+            messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+            appId: "YOUR_APP_ID"
+        };
+        
+        firebase.initializeApp(firebaseConfig);
+        const auth = firebase.auth();
+        const db = firebase.firestore();
+    </script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <h1>Welcome to Freretown Secondary School</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#programs">Programs</a></li>
+                    <li><a href="#mission">Mission & Vision</a></li>
+                    <li><a href="#Board Of Honours">Board Of Honours</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#ysk">YSK</a></li>
+                    <li><a href="#social-media">Social Media</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h2>Achieving Excellence Together</h2>
+        <p>Welcome to Freretown Secondary School, where every student's success is our priority!</p>
+    
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-section" id="about">
+        <h2>About Us</h2>
+        <p><strong>School Background:</strong></p>
+           <p> Frere Town Secondary School is a dynamic institution dedicated to academic excellence, character formation, and holistic development. Established in 2016, the school has grown into a center of excellence, nurturing young minds and preparing them for future success. It offers a conducive learning environment with well-trained staff, modern facilities, and a strong commitment to discipline and innovation.</p>
+            <p>Frere Town Secondary School was established as a Constituency Development Fund (C.D.F.) project during the 2013/2015 financial year. The initiative was spearheaded by the then Area Member of Parliament for Nyali Constituency, Hon. Awiti Bolo, to provide quality secondary education to students within the region.</p>
+            <p>The school officially opened its doors on 25th May 2015, with an initial enrollment of 27 students—15 boys and 12 girls. Mr. Temo, the headteacher of Frere Town Primary School, acted as the founding principal. The County Education Board sponsors the school.</p>
+            <P>Through Mr. Temo’s efforts, the school secured classrooms, textbooks, and furniture from Frere Town Primary School. On 17th July 2016, the Ministry of Education granted the school a Provisional Certificate of Registration. Mr. Fredrick Kiprotich became the first Teachers Service Commission (T.S.C.)-employed principal on 15th July 2016.</p>
+           <p><strong>The school has undergone leadership transitions:</strong></p>
+            <p>Mr. Fredrick Kiprotich (July 2018 – May 2019)</p>
+            <p>Mr. Lawrence C. Nzai (May 2019 – January 2024)</p>
+            <p>Mr. Abdishakur Hussein Sheikh (February 2024 – Present)</p>
+            <p>Currently, the school has 777 students:</p>
+            <p>Form 2: 375 students (216 boys, 159 girls)</p>  
+            <p>Form 3: 253 students (128 boys, 125 girls)</p>
+            <p>Form 4: 149 students (83 boys, 66 girls)</p>
+            <p>The school operates under a governance system comprising the Board of Management (BOM) and the Parents Association (PA).</p>
+    </section>
+
+    <!-- Programs Offered -->
+    <section class="programs-section" id="programs">
+        <h2>Programs Offered</h2>
+        <ul>
+            <li><strong>Science and Technology:</strong> Physics, chemistry, biology, and computer science.</li>
+            <li><strong>Mathematics:</strong> Advanced Mathematics courses.</li>
+            <li><strong>Humanities:</strong> History, geography,Christian Religious Education (C.R.E.)& Islamic Religious Education (I.R.E.).</li>
+            <li><strong>Technicals:</strong> Agriculture, business studies.</li>
+            <li><strong>Sports:</strong> Soccer, basketball, athletics.</li>
+            <h2><strong>SCHOOL CURRICULUM MANAGEMENT POLICY.</strong></h2>
+            <P>According to Kenya Institute of Curriculum Development (KICD) Act 2013, curriculum is all planned learning programs that facilitate formal, non-formal and informal learning. Frere Town Secondary School has a motto, vision, mission and core values. The school is committed to student empowerment through comprehensive quality education. For the school to realize this vision there must be a curriculum management policy to bring this vision to reality. The curriculum management policy will ensure effective management of the entire curriculum. The policy shall be implemented within the framework of:</P>
+                 
+                <p>The Kenya constitution</p>
+                <P>Basic Education Act (2013)</P>
+                <p>The sessional paper no. 1 of 2005</P>
+                <P>The T.S.C code of regulation and T.S.C code of conduct and ethics</P>
+                <p>The Kenya Institute of Curriculum Development (KICD) Act of 2013 The policy binds all the stake holders of Frere Town Secondary School.</P>
+                 
+                <P>The policy will focus on four major areas:</P>
+                 
+                <P>i) Constitution and function of the curriculum management committees</P>
+                <P>ii) Curriculum evaluation</P>
+                <P>iii) Internal quality assurance and control</P>
+                <P>iv) Special needs education</P>
+                 
+                 
+                <P>i) Constitution and function of the Curriculum Management Committees</P>
+                 
+                <P>This policy shall be spearheaded by a committee comprising of the principal, the B.O.M, Academic Committee, Academic HOD's, Non Academic HOD's i.e. G/C and Games Master. Their role will include:</P>
+                 
+                <P>Sensitizing the school on curriculum issues embedded in the school mission, vision and motto.</P>
+                Ensure participation of teachers and students in co-curricular activities.</P>
+                Supervise curriculum delivery at different levels.</P>
+                Ensure quality teaching, learning and evaluation as per the T.S.C TPAD throughout the learning period and empower teachers through workshops and seminars.</P>
+                Ensure availability of learning resource materials in the school through making budgets and purchases.</P>
+                Establish specific panels within the departments as required e.g.subject panels.</P>
+                Employment of qualified personnel for effective curriculum delivery.</P>
+                Facilitates student activities like student's barazas, students council elections, peer training sessions e.t.c</P>
+                Formulate and revise school rules regularly.</P>
+                Recognize and reward students and teachers who excel in academics and co-curricular activities.</P>
+                Encourage strong parents and community support through involvement in school activities and projects.</P>
+                 
+                ii) Curriculum Evaluation</P>
+                For the curriculum to be effective it must be evaluated. Frere Town Secondary School will carry out an assessment to determine whether the curriculum implementation is effectively done. Such assessments will include observations, quizzes, projects, Continuous Assessment Tests, End of Term examinations and national examinations (KCSE).</P>
+                
+                The following activities will help evaluate curriculum implementation.</P>
+                 
+                <P>The test policy of the school will entail two Continuous Assessment Tests and one end of term exam.</P>
+                Quizzes will be administered departmentally as per the department's policy.</P>
+                Internal examinations will be set, moderated, administered, marked, scored and analyzed departmentally.</p>
+                The academic department will compile results and give feedback on general performance per subject per class.</p>
+                The school will form clusters with other schools in the county and other counties to share curriculum implementation and strategies.</p>
+                The form four candidates will be exposed to at least eight series of exams before summative evaluation in K.C.S.E</P>
+                The school will ensure tests and examinations are professionally administered and exam malpractices will be handled accordingly by the disciplinary committee.</p>
+                Academic results for internal exams will be discussed at the beginning of each term during academic clinics when parents /guardians will hold academic discussions with subject teachers.</p>
+                The value-added card will be used to monitor individual students' academic progress.</p>
+                Remedial lessons will be organized for weak students in particular subjects during the course of the term.</p>
+                Students will be grouped in families under supervision of teachers to discuss their academic progress and issues affecting performance.</p>
+                The school timetable will be strictly followed and time for P.E, Life Skill lessons, clubs and games will be used effectively as scheduled. All students and teachers will participate in co-curricular activities at all competitive levels evidenced by certificates and trophies.</p>
+                The school will formulate policies regarding effective curriculum implementation for example operation effective 40 policy for 40 minutes in class, the ASEI-PDSI for science teachers etc.</p>
+                The Academic H.O.Ds will evaluate curriculum delivery by carrying out internal quality assurance and control measures.</p>
+                
+                
+                
+                <p>iii) Internal Quality Assurance and Control</p>
+                To ensure that procedures and processes are executed as intended Frere Town Secondary School will put in place internal quality assurance and standards systems and also place itself in a position of external quality assurance and standards assessments.</P>
+                
+                The internal quality assurance and control measures will be pegged on the performance appraisal tools from the T.S.C. The tools are comprehensive with checklists of all professional documents to monitor effective curriculum delivery.</p>
+                iv) Special Needs Education</p>
+                Frere Town Secondary School has learners who are talented as well as those with disabilities. There are learners with mild hearing and visual impairments, victims of violence and sexual abuse among others.</p>
+                 
+                Frere Town Secondary School will use the integration learning approach to handle students/learners with the special education needs; there shall be no discrimination of any kind from students, teachers and support staff.</p>
+                 
+                d) Science, Technology and Innovation (ST&I) policy</p>
+                 
+                Science, Technology and Innovation (ST&I) have emerged to be the major drivers of national development globally. Frere Town Secondary School has not accorded due consideration to the importance of ST&I play in the day to day development strategies. This impedes individual and national developments as per the goals of education</p>
+                 
+                The school will develop the science, Technology and innovation policy to enhance quality learning.</p>
+                
+                <p>e) School financial management policy</p>
+                <P>The school will have in place a financial management policy. The policy will reflect the financial regulations like budgeting where the school will have a financial plan for a period of one year. The school shall have an annual budget each year that is approved by the board of management.</p>
+                The Head teacher will comply with the government accounting processes as guided by the Public Financial Management Act of 2012. The Head teacher is the accounting officer.</p>
+                All funds collected by the school must be banked in the relevant school accounts before being spent. Where cash is collected, official payment receipts must be issued and appropriate entries made in the cash book.</p>
+                All withdrawals of funds from school accounts must be supported by the relevant documents facilitating withdrawals.</p>
+                All payments paid must be supported by relevant documents as necessary.</p>
+                Before any procurement of goods or services is done, the public procurement process shall be adhered to as outlined in the Public Procurement Manual for Schools and Colleges (2009).</p>
+                Frere Town Secondary School is strategically placed along Mombasa-Malindi Road. The area is densely populated and lucrative for business. The school will survey the environment and come up with a business plan for projects that could benefit the school.</p>
+                
+                </P>
+        </ul>
+    </section>
+
+    <!-- Mission and Vision -->
+    <section class="mission-vision-section" id="mission">
+        <h2>Mission & Vision</h2>
+        <p><strong>Mission:</strong> To provide equal educational opportunities for the Kenyan child for self-reliance and national development.
+        </p>
+        <p><strong>Vision:</strong> To make Frere Town Secondary School a Centre of Excellence.</p>
+        <p><strong>Core values:</strong>
+            <p>Fear of god</p>
+            <p>Professionalism</p>
+            <p>Integrity
+            <p>Teamwork</p>
+            <p>Self-Discipline</p>
+            </p>
+    </section>
+
+    <!--Board Of Honours.-->
+    <Section class="Honours" id="Board Of Honours">
+        <h2> Best Candidates in KCSE</h2>
+
+     <P><strong>BOARD OF HONOURS LIST: Best Candidates in KCSE.</strong></P>    
+   <P><h2>YEAR       NAME                    GENDER             MEAN GRADE  POINTS</h2></P>
+    <p><h2> 2018   Dadu Samuel Mwambegu       Male                    C        40</p>
+         <p>2019     Indago Bovin               Male                    B-       53</p>
+         <p>2020     Daniela Luqman             Female                  B-       62</p>
+         <p>2021     Mwangi Christine Wangari   Female                  B-       55</p>
+         <p>2022     Wangari Kabue Dennis       Male                    B-       55</p>
+         <p>2023     Kitheka Justus Wambua      Male                    B+       72</p>
+         <p>2024     Kibuni Gregory Kalusha     Male                    B+       71</p></h2>
+    </Section>
+    <!-- YSK Section -->
+    <section class="ysk" id="ysk">
+        <h2>Freretown Secondary & YSK Partnership</h2>
+        <p>Frere Town Secondary School has been dedicated to providing a holistic education for its students by focusing on both academic excellence and the development of practical skills in Science, Technology, Engineering, and Mathematics (STEM). As part of these efforts, the school has established various initiatives, including the Y.S.K Coding Club, aimed at equipping students with essential digital skills for the 21st century.</p>
+
+
+
+
+
+
+
+
+
+
+
+<img src="img 01.jpg" width="300">
+
+
+
+
+
+            <p><strong>Y.S.K PARTNERSHIP AND DONATION.</strong></p>
+            On the evening of Saturday, 28th September 2024, our Y.S.K Coding Club received a generous donation of 10 computers  from Young Scientists Kenya (YSK). These computers are a significant boost to the ongoing coding program, which aims to teach students how to code and develop digital literacy skills. The Y.S.K Coding Club has been conducting coding classes as part of its curriculum and this donation will enhance the experience and opportunities for the students.
+            
+            
+
+            <img src="unnamed.jpg" width="500" alt="School Image">
+            
+            
+            
+            
+            
+           <p><strong>IMPACT ON THE STUDENTS. </strong></p>
+           This contribution has excited both the students and the staff at Frere Town Secondary School. The computers will provide a platform for practical, hands-on learning, and allow students to work on more complex projects and assignments. Our commitment is to ensure that each student maximizes this opportunity, learning to not only code but also think critically, solve problems  and innovate.
+
+            <img src="unnamed (1).jpg">
+
+            <img src="unnamed (6).jpg" width="300">     <img src="img 2024.jpg" width="300">
+            
+            
+            
+    
+            
+            
+            <img src="img 20.jpg"width="500">
+           
+
+
+
+
+            <img src="img 22.jpg" width="300">
+
+
+
+
+
+
+
+
+
+
+            <img src="img 23.jpg" width="400">
+
+
+             
+            
+            
+            
+            
+            <p><strong>Y.S.K’S EXPECTATIONS.</strong></p>
+             <img src="img 31.jpg" width="450">
+            YSK has expressed hope that this donation will increase the number of participants in the coding program and nurture a stronger coding culture within the school. We share the same vision and are working tirelessly to ensure that more students are encouraged to join the Y.S.K Coding Club. By leveraging this resource, we aim to have a larger number of students participate in coding activities, competitions  and projects that can impact their academic and future career paths.
+            <p><strong>NEXT STEP.</strong></p>
+            With the computers now in place, we plan to immediately expand the coding classes, providing each student with adequate time to engage with the new equipment. The excitement among students is palpable and we are optimistic that this momentum will drive an increase in participation and skill development. We are also exploring partnerships and opportunities to expose the students to coding competitions at both the national and international levels.
+            
+
+            <p><strong>CONCLUSION.</strong></p>
+            We are extremely grateful to Y.S.K for their generosity and commitment to supporting our students' education. The donation of computers will undoubtedly transform our Y.S.K Coding Club and the learning experience at Frere Town Secondary School. Together, we are empowering the next generation of innovators and problem-solvers.
+
+            
+            <p>With sincere thanks,</p>
+            <img src="img 29.jpg" width="300">    <img src="img 30.jpg" width="300">
+
+            
+            
+            
+           <p>Omar Khamis, </p>  
+
+            <p>S.T.E.M Educator,</p>
+
+            Frere Town Secondary School.
+            </p>
+        
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:freretownsec8@gmail.com">freretownsec8@gmail.com</a></p>
+        <p>Phone: <a href="mailto:+ 254 799 876 813"></a> + 254 799 876 813</p>
+        <p>Address: Freretown Ward, Nyali, Kenya</p>
+    </section>
+
+    <!-- Social Media Links -->
+    <section id="social-media">
+        <h2>Follow Us</h2>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/search/top?q=freretown%20secondary%20school" target="_blank"><i class="fa-brands fa-square-facebook"></i>
+            <a href="https://twitter.com/home" target="_blank"><i class="fa-brands fa-square-x-twitter"></i>
+            <a href="https://www.instagram.com/freretown.highschool_gallery/" target="_blank"><i class="fa-brands fa-square-instagram"></i>
+            <a href="https://www.youtube.com/@kizazikipyamentorshipyouth7377" target="_blank"><i class="fa-brands fa-square-youtube"></i>
+    </section>
+    
+
+
+    <!-- Footer -->
+    <footer>
+        <p>Copyright &copy; 2025; Designed by <span class="designer">SADDIQ</span></p>
+    </footer>
+</body>
+</html>
